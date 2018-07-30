@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+    <canvas id="i" style="width: 61px; height: 61px"></canvas>
+    <script src="fdt-PhUeNIX-circle.js"></script>
+    <script>
+        var body = document.querySelector("body");
+        body.style.backgroundColor = "#000000";
+        var canvas = document.querySelector('#i');
+        var interval = circle(
+            canvas, //canvas element itself
+            5 //fake fps concept, just try it
+        );
+    </script>
+</body>
+</html>
